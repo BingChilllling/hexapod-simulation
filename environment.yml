@@ -1,0 +1,14 @@
+name: hexapod-sim
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - numpy
+  - viser
+  - pyyaml
+  - pybullet
+  - pygame
+  - pyserial
+  - pip:
+      - yourdfpy>=0.0.60
+      - -e ./Hexapod-Controller
